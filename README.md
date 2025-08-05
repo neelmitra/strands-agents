@@ -93,7 +93,7 @@ The course uses several configuration approaches:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/aws-samples/sample-getting-started-with-strands-agents-course.git>
    ```
 
 2. **Create and activate virtual environment:**
