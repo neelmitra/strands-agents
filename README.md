@@ -93,7 +93,7 @@ The course uses several configuration approaches:
 
 1. **Clone the repository:**
    ```bash
-   git clone <https://github.com/aws-samples/sample-getting-started-with-strands-agents-course.git>
+   git clone https://github.com/aws-samples/sample-getting-started-with-strands-agents-course.git
    ```
 
 2. **Create and activate virtual environment:**
@@ -112,7 +112,7 @@ The course uses several configuration approaches:
 Each lab can be run independently. Start with Lab 1 for the basics:
 
 
-**Lab 1 - Basic Usage**
+**Lab 1-3 - Basic Usage**
 ```bash
 cd Lab1
 python basic-use.py
