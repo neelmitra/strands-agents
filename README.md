@@ -24,12 +24,16 @@ Learn the fundamentals of creating and using Strands agents:
 ### Lab 2: Model Providers & Configuration
 **Files:** `anthropic-model-provider.py`, `anthropic-pet-breed-agent.py`, `bedrock-default-config.py`, `bedrock-detailed-config.py`
 
+(Certain portions of code in this lab require a pre-existing AWS account to make use of the 'generate_image' tool.)
+
 Explore different model providers and configuration options:
 - Anthropic model integration
 - Amazon Bedrock model configuration
 
 ### Lab 3: ['use_aws'](https://github.com/strands-agents/tools/blob/main/src/strands_tools/use_aws.py) Tool Integration
 **Files:** `aws-tool-use.py`
+
+(The code in this lab requires a pre-existing AWS account to properly utilize the 'use_aws' tool. An example Amazon DynamoDB Table is used to generate results when quering a table.)
 
 Learn to integrate AWS services with your Strands agents:
 - AWS service tool usage
@@ -145,6 +149,7 @@ Follow the steps in `observability-with-langfuse-and-evaluation-with-ragas.ipynb
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 - [LangFuse Documentation](https://langfuse.com/docs)
 - [RAGAS Documentation](https://docs.ragas.io/)
+- [Setting up AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
 
 ## 🐛 Troubleshooting
 
