@@ -33,7 +33,7 @@ Explore different model providers and configuration options:
 ### Lab 3: ['use_aws'](https://github.com/strands-agents/tools/blob/main/src/strands_tools/use_aws.py) Tool Integration
 **Files:** `aws-tool-use.py`
 
-_(The code in this lab requires a pre-existing AWS account to properly utilize the 'use_aws' tool. An example Amazon DynamoDB Table is used to generate results when quering a table.)_
+_(The code in this lab requires a pre-existing AWS account to properly utilize the 'use_aws' tool. An example Amazon DynamoDB Table is used to generate results when querying a table.)_
 
 Learn to integrate AWS services with your Strands agents:
 - AWS service tool usage
