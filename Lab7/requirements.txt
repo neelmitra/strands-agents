@@ -1,0 +1,33 @@
+# Additional requirements for Lab7 - Fraud Detection with Agentic Capabilities
+# These are in addition to the main requirements.txt in the root directory
+
+# Core dependencies (should already be installed from main requirements.txt)
+# strands-agents
+# strands-agents-tools
+# strands-agents[anthropic]
+# strands-agents[a2a]
+# mcp[cli]
+# fastapi
+
+# Additional dependencies for fraud detection
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+requests>=2.25.0
+httpx>=0.24.0
+
+# For advanced statistical analysis (optional)
+scipy>=1.7.0
+
+# For data visualization (optional)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# For enhanced datetime handling
+python-dateutil>=2.8.0
+
+# For improved JSON handling
+orjson>=3.8.0
+
+# For async HTTP requests
+aiohttp>=3.8.0

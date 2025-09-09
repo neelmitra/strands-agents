@@ -66,6 +66,17 @@ Monitor and evaluate agent performance:
 - RAGAS evaluation framework
 - Performance metrics and tracing
 
+### Lab 7: Fraud Detection with Agentic Capabilities
+**Files:** `fraud_detection_agent.py`, `fraud_mcp_tools.py`, `multi_agent_fraud_system.py`, `sample_transactions.py`
+
+Build an intelligent fraud detection system with advanced agentic capabilities:
+- Autonomous transaction analysis and risk assessment
+- Pattern recognition across multiple transactions
+- Multi-step reasoning for complex fraud scenarios
+- MCP tools for specialized fraud detection functions
+- Multi-agent architecture for collaborative fraud detection
+- Agent-to-Agent communication for specialized analysis
+
 ## 📖 Learning Path
 
 1. **Start with Lab 1** - Get familiar with basic agent creation
@@ -73,6 +84,7 @@ Monitor and evaluate agent performance:
 3. **Master Lab 4** - Understand MCP and tool integration
 4. **Build with Lab 5** - Create multi-agent systems
 5. **Monitor with Lab 6** - Implement observability and evaluation
+6. **Advanced with Lab 7** - Build intelligent fraud detection with agentic capabilities
 
 ## 🔧 Configuration
 
@@ -139,6 +151,23 @@ Follow the steps in `a2a-communication.ipynb`
 cd Lab6
 ```
 Follow the steps in `observability-with-langfuse-and-evaluation-with-ragas.ipynb`
+
+**Lab 7 - Fraud Detection with Agentic Capabilities**
+```bash
+cd Lab7
+
+# Basic fraud detection agent
+python fraud_detection_agent.py
+
+# Interactive fraud detection
+python fraud_detection_agent.py interactive
+
+# MCP-enabled fraud detection with tools
+python fraud_mcp_tools.py
+
+# Multi-agent fraud detection system
+python multi_agent_fraud_system.py
+```
 
 
 
