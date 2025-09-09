@@ -66,6 +66,26 @@ Monitor and evaluate agent performance:
 - RAGAS evaluation framework
 - Performance metrics and tracing
 
+### EV Monitor: Electric Vehicle Neighborhood Monitoring
+**Files:** `EV_Monitor/` directory with complete application
+
+**NEW!** Comprehensive agentic application for monitoring EVs in your neighborhood:
+- EV sales data analysis and trend monitoring
+- Google Traffic API integration for EV usage patterns
+- Charging station location and availability tracking
+- Neighborhood EV density calculations
+- Multi-factor EV adoption analysis
+- Real-time traffic pattern analysis for EV-heavy areas
+- Popular EV model information and specifications
+
+**Key Features:**
+- 7 specialized MCP tools for EV monitoring
+- Natural language interface for complex analytics
+- Support for real Google Maps API integration
+- Comprehensive demographic and infrastructure analysis
+- Interactive demo with example queries
+- Extensible architecture for additional data sources
+
 ## 📖 Learning Path
 
 1. **Start with Lab 1** - Get familiar with basic agent creation
@@ -73,6 +93,7 @@ Monitor and evaluate agent performance:
 3. **Master Lab 4** - Understand MCP and tool integration
 4. **Build with Lab 5** - Create multi-agent systems
 5. **Monitor with Lab 6** - Implement observability and evaluation
+6. **Explore EV Monitor** - See a complete real-world application example
 
 ## 🔧 Configuration
 
@@ -139,6 +160,13 @@ Follow the steps in `a2a-communication.ipynb`
 cd Lab6
 ```
 Follow the steps in `observability-with-langfuse-and-evaluation-with-ragas.ipynb`
+
+**EV Monitor - Complete Application**
+```bash
+cd EV_Monitor
+python setup.py  # Install dependencies and configure
+python ev_monitor_app.py  # Run the main application
+```
 
 
 
