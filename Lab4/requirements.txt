@@ -3,3 +3,4 @@ strands-agents-tools
 strands-agents[anthropic]
 mcp[cli]
 mcp-server-git
+requests
